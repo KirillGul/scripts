@@ -26,7 +26,6 @@ if (!empty($_FILES)) {
         $message .= "Файл должен быть картинкой";
 
     } elseif (file_exists($uploads_dir . '/' . $name)) {
-
         $message = "<div class=\"alert alert-warning\" role=\"alert\">";
         $message .= "Такой файл уже существует.";
     
