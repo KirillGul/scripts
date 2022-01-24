@@ -27,7 +27,7 @@
 
       <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src="img/file-earmark-arrow-down.svg" class="card-img-top" alt="Upload Image">
+          <img src="img/file-earmark-arrow-down.svg" class="card-img-top" alt="Calculation Image">
           <div class="card-body">
             <h5 class="card-title">Calculation</h5>
             <p class="card-text">Скрипт калькулятора.</p>
@@ -38,11 +38,22 @@
 
       <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src="img/app.svg" class="card-img-top" alt="Upload Image">
+          <img src="img/app.svg" class="card-img-top" alt="Exception Image">
           <div class="card-body">
             <h5 class="card-title">Исключения (тесты)</h5>
             <p class="card-text">Скрипт тестов обработки исключения и ошибок в программе (модуле или библиотеке).</p>
             <a href="exception/index.php" class="btn btn-primary">Перейти</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/person-workspace.svg" class="card-img-top" alt="Autorization Image">
+          <div class="card-body">
+            <h5 class="card-title">Простая авторизация на PHP</h5>
+            <p class="card-text">Скрипт авторизации без ООП.</p>
+            <a href="simpleautorization/index.php" class="btn btn-primary">Перейти</a>
           </div>
         </div>
       </div>
